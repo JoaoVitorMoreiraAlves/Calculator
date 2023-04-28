@@ -17,7 +17,7 @@ janela = Tk()
 janela.title("Calculadora") #Titulo do app
 
 janela.geometry("277x285") # 277 de largura e 285 de altura
-
+janela.resizable(width=False, height=False)
 janela.config(bg=cinza)
 
 
